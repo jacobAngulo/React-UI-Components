@@ -3,8 +3,8 @@ import './Footer.css';
 
 function Footer() {
     return (
-        <h1>TEST</h1>
-    )
+        <h1 className="footer">footah</h1>
+    );
 };
 
-export default "Footer";
+export default Footer;

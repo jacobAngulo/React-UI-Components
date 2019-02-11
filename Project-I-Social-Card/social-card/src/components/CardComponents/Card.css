@@ -1,0 +1,17 @@
+/* All styles for your Card Components live here */
+.card {
+    background: aquamarine;
+    height: 60%;
+    width: 85%;
+    margin-left: 75px;
+    border-radius: 2.5px;
+    border: 1px solid black;
+}
+
+.card-banner {
+    height: 80%;
+}
+
+.card-content {
+    border-top: 1px solid black;
+}

@@ -1,1 +1,27 @@
 /* All styles for your header Components live here */
+img {
+    height: 75px;
+    width: 75px;
+    /* object-fit: contain; */
+    justify-content: flex-start;
+    background: white;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-start;
+    /* height: 75px; */
+}
+
+.header-title {
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 40px;
+}
+
+.title-content {
+    display: flex;
+    flex-direction: column;
+}
