@@ -1,5 +1,7 @@
 import React from 'react';
 import CardContainer from './components/CardComponents/CardContainer';
+import HeaderContainer from './components/HeaderComponents/HeaderContainer';
+import Footer from './components/FooterComponents/Footer';
 import './App.css';
 
 const App = () => {
@@ -18,6 +20,7 @@ const App = () => {
           inside of this file in order to make them work.
         </strong>
       </p>
+      <Footer />
     </div>
   );
 };
