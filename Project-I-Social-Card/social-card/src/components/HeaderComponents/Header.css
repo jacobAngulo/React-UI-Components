@@ -1,7 +1,12 @@
 /* All styles for your header Components live here */
-img {
-    height: 75px;
+.logo-container {
     width: 75px;
+}
+
+img {
+    height: 50px;
+    width: 50px;
+    padding: 0 12.5px;
     /* object-fit: contain; */
     justify-content: flex-start;
     background: white;
@@ -10,6 +15,7 @@ img {
 .header {
     display: flex;
     justify-content: flex-start;
+    padding-right: 15px;
     /* height: 75px; */
 }
 
@@ -24,4 +30,8 @@ img {
 .title-content {
     display: flex;
     flex-direction: column;
+}
+
+.header-content {
+    margin: 0;
 }
