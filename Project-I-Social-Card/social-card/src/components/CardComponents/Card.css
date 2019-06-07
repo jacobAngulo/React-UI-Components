@@ -1,1 +1,29 @@
 /* All styles for your Card Components live here */
+.card {
+    background: aquamarine;
+    /* height: 60%; */
+    width: 85%;
+    margin-left: 75px;
+    border-radius: 2.5px;
+    border: 1px solid black;
+}
+
+.card-banner {
+    height: 80%;
+}
+
+.card-content {
+    padding: 10px;
+    border-top: 1px solid black;
+    justify-content: flex-end;
+}
+
+.card-content h1 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.card-content a {
+    text-decoration: none;
+    color: grey;
+}
